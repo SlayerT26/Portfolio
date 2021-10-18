@@ -1,0 +1,39 @@
+.Contact-Grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.687);
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 25px;
+  padding-bottom: 1%;
+}
+
+.My-Email {
+  transition: all ease-out 0.2s;
+  color: blue;
+}
+.My-Email:hover {
+  transform: scale(1.1);
+}
+.My-Linkedin {
+  transition: all ease-out 0.2s;
+  color: blue;
+}
+.My-Linkedin:hover {
+  transform: scale(1.1);
+}
+
+.Resume-Grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3%;
+}
+.Resume-Link {
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.687);
+  padding-bottom: 10%;
+}

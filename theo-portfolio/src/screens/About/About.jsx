@@ -17,8 +17,8 @@ function About() {
             Greetings! I am a full-stack engineer, who is enthusiastic about
             learning new skills and taking on challenges. As a CAD Designer
             Specialist, I've always had a passion for technology, but never
-            really knew what I wanted to do. Until I discovered coding. At that
-            moment, I knew what I wanted to do.
+            really knew what I wanted to do. Until I discovered coding. And Once
+            I started learning. I knew then. I wanted to be a software engineer.
             <br />
             <br />I decided to take a leap of faith with General Assembly, to
             begin my new career choice and journey. And after 12 weeks and 400+
@@ -83,6 +83,8 @@ function About() {
           />
         </div>
       </div>
+      <br />
+      <br />
     </>
   );
 }
