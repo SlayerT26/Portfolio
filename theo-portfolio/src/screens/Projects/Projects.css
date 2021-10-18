@@ -1,0 +1,117 @@
+.Projects-Grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+  width: 100%;
+}
+
+/* Project 1 */
+.Project1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.687);
+  padding: 2%;
+  border-radius: 25px;
+}
+.Project1Photo {
+  width: 38%;
+  height: 35%;
+}
+.Project1Info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.Project1Title {
+  font-family: "Playfair Display", serif;
+  margin-top: 0;
+}
+.Project1Paragraph {
+  width: 80%;
+  font-family: "Comic Neue", cursive;
+  font-size: 120%;
+  text-align: center;
+}
+
+/* Project2 */
+.Project2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.687);
+  padding: 2%;
+  border-radius: 25px;
+  margin-top: 4%;
+}
+.Project2Photo {
+  width: 33%;
+  height: 35%;
+  margin-left: 3%;
+}
+.Project2Info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.Project2Title {
+  font-family: "Playfair Display", serif;
+  margin-top: 0;
+}
+.Project2Paragraph {
+  width: 80%;
+  font-family: "Comic Neue", cursive;
+  font-size: 120%;
+  text-align: center;
+}
+
+/* Project 3 */
+.Project3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.687);
+  padding: 2%;
+  border-radius: 25px;
+  margin-top: 4%;
+}
+.Project3Photo {
+  width: 38%;
+  height: 35%;
+}
+.Project3Info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.Project3Title {
+  font-family: "Playfair Display", serif;
+  margin-top: 0;
+}
+.Project3Paragraph {
+  width: 80%;
+  font-family: "Comic Neue", cursive;
+  font-size: 120%;
+  text-align: center;
+}
+
+.ProjectSite {
+  text-decoration: none;
+  background: white;
+  padding: 1.75%;
+  border-radius: 25px;
+  color: black;
+  transition: all ease-out 0.3s;
+}
+.ProjectSite:hover {
+  color: white;
+  background: black;
+}

@@ -1,0 +1,108 @@
+.About-Div {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.687);
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 5%;
+  padding-bottom: 3%;
+  border-radius: 25px;
+}
+.Image-Div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding-right: 3%;
+}
+
+.Profile-Pic {
+  margin-top: 7%;
+  border-radius: 25px;
+  width: 90%;
+}
+
+.About-Me-Div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  margin-right: 5%;
+}
+
+.About-Me-Title {
+  font-family: "Playfair Display", serif;
+  font-size: 350%;
+}
+.About-Me-Bio {
+  font-family: "Comic Neue", cursive;
+  font-size: 150%;
+}
+
+.Skill-Div {
+  background-color: rgba(255, 255, 255, 0.687);
+  width: 96%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 25px;
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.Skill-h1 {
+  font-family: "Playfair Display", serif;
+}
+.Skill-p {
+  font-family: "Comic Neue", cursive;
+  font-size: 140%;
+  margin-bottom: 5%;
+}
+
+.All-Skill-Logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 96%;
+  padding-bottom: 2%;
+}
+.Skill-Logo1 {
+  width: 100px;
+  height: 100px;
+}
+.Skill-Logo2 {
+  width: 70px;
+  height: 100px;
+}
+.Skill-Logo3 {
+  width: 71px;
+  height: 100px;
+}
+.Skill-Logo4 {
+  width: 94px;
+  height: 100px;
+}
+.Skill-Logo5 {
+  width: 100px;
+  height: 100px;
+}
+.Skill-Logo6 {
+  width: 97px;
+  height: 100px;
+}
+.Skill-Logo7 {
+  width: 109px;
+  height: 100px;
+}
+.Skill-Logo8 {
+  width: 110px;
+  height: 100px;
+}
+.Skill-Logo9 {
+  width: 133px;
+  height: 100px;
+}
