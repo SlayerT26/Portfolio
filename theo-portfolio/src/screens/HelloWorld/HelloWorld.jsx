@@ -10,21 +10,21 @@ function HelloWorld() {
         <div className="HelloWorldMainDiv">
           <div className="HelloWorldDiv1">
             <div className="PythonDiv">
-              <Typing>
+              <div>
                 <h1 className="Python">
                   <span className="PythonSpan1">print</span>(
                   <span className="PythonSpan2">"Hello World"</span>)
                 </h1>
-              </Typing>
+              </div>
             </div>
             <div className="JavaScriptDiv">
-              <Typing>
+              <div>
                 <h1 className="JavaScript">
                   <span className="JavaScriptSpan1">console</span>.
                   <span className="JavaScriptSpan2">log</span>(
                   <span className="JavaScriptSpan3">"Hello World"</span>)
                 </h1>
-              </Typing>
+              </div>
             </div>
           </div>
 
@@ -34,19 +34,19 @@ function HelloWorld() {
 
           <div className="HelloWorldDiv2">
             <div className="CDiv">
-              <Typing>
+              <div>
                 <h1 className="C">
                   cout &lt;&lt; "Hello World" &lt;&lt; endl;
                 </h1>
-              </Typing>
+              </div>
             </div>
             <div className="RubyDiv">
-              <Typing>
+              <div>
                 <h1 className="Ruby">
                   <span className="RubySpan1">put </span>
                   <span className="RubySpan2"> Hello World</span>
                 </h1>
-              </Typing>
+              </div>
             </div>
           </div>
 
