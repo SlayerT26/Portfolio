@@ -26,8 +26,9 @@
   align-items: center;
 }
 .Python {
-  font-size: 175%;
+  font-size: 100%;
   font-family: "Poppins", sans-serif;
+  color: rgb(51, 162, 162);
 }
 .PythonSpan1 {
   color: aqua;
@@ -42,8 +43,9 @@
   align-items: center;
 }
 .JavaScript {
-  font-size: 175%;
-  font-family: "Inter", sans-serif;
+  font-size: 100%;
+  font-family: "Poppins", sans-serif;
+  color: rgb(44, 179, 44);
 }
 .JavaScriptSpan1 {
   color: rgb(222, 222, 2);
@@ -87,15 +89,19 @@
   margin-left: 5%;
 }
 .C {
-  font-family: "Maven Pro", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: rgb(116, 10, 45);
-  font-size: 175%;
+  font-size: 100%;
 }
 
+.RubyDiv {
+  display: flex;
+  justify-content: flex-end;
+}
 .Ruby {
-  font-family: "Hind Madurai", sans-serif;
-  text-align: right;
-  font-size: 175%;
+  font-family: "Poppins", sans-serif;
+  color: rgb(161, 230, 1);
+  font-size: 100%;
 }
 .RubySpan1 {
   color: rgb(161, 230, 1);
