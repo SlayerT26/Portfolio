@@ -1,32 +1,39 @@
-.Navbar {
+.NavBar {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 33% 17% 50%;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.687);
+  background-color: rgb(205, 199, 199);
+  position: fixed;
   width: 100%;
-  top: 0%;
 }
 
-.Theodore-Heading {
-  margin-left: 10%;
-  font-family: "Playfair Display", serif;
-  font-size: 300%;
+.NavBarName {
+  text-align: center;
 }
 
-.NavLink {
+.NavDivList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.NavTitleList {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-right: 2%;
-  margin-left: 10%;
 }
-#NavLink {
+
+.NavList {
+  list-style-type: none;
+}
+
+.NavLink {
   text-decoration: none;
   color: black;
-  font-size: 150%;
-  transition: all ease-out 0.2s;
-  font-family: "Comic Neue", cursive;
-}
-#NavLink:hover {
-  transform: scale(1.2);
+  font-style: bold italic;
+  font-size: 130%;
+  font-family: "Open Sans", sans-serif;
 }

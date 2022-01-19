@@ -1,15 +1,16 @@
-import NavBar from "../NavBar/NavBar";
 import "./Layout.css";
+import NavBar from "../NavBar/NavBar";
+import Footer from "../Footer/Footer";
 
-const Layout = (props) => {
+function Layout(props) {
   return (
     <>
-      <div className="Layout-Background">
+      <div>
         <NavBar />
         <div>{props.children}</div>
       </div>
     </>
   );
-};
+}
 
 export default Layout;
